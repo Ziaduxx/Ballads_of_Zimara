@@ -10,15 +10,11 @@ function main()
     variable bool Divided=FALSE	
     oc ${Me.Name}: Starting the ${MobName} helper script.
 
-;   oc !ci -ChangeOgreBotUIOption ${Me.Name} checkbox_settings_disablecaststack_curecurse TRUE FALSE TRUE
-
     while ${Actor[exactname,${MobName}].ID(exists)}
     {
         Ogre_CampSpot:Set_ChangeCampSpot[${Me.Name}, ${TankSpot}]
-	;oc !ci -joustin ${Me.Name}
-
-	;Name: Two Hearts Joined BackDropIconID: 317 MainIconID: 496
-	;Name: Two Hearts Joined BackDropIconID: 314 MainIconID: 496
+	
+	    ;Name: Two Hearts Joined BackDropIconID: 314 MainIconID: 496
         if ${OgreBotAPI.DetrimentalInfo[496, 314]} || ${OgreBotAPI.DetrimentalInfo[496, 317]}
         {
 	    ;oc !ci -joustout ${Me.Name}
@@ -26,7 +22,7 @@ function main()
             wait 50
         }
 
-	;Name: Two Hearts Divided BackDropIconID: 317 MainIconID: 170
+	    ;Name: Two Hearts Divided BackDropIconID: 317 MainIconID: 170
         if ${OgreBotAPI.DetrimentalInfo[170, 317]}
         {
             eq2ex r I have Two Hearts Divided: Moving out for cure.
@@ -35,7 +31,7 @@ function main()
             wait 50
         }
 	
-	;Name: Two Hearts Divided BackDropIconID: 314 MainIconID: 170
+	    ;Name: Two Hearts Divided BackDropIconID: 314 MainIconID: 170
         if ${OgreBotAPI.DetrimentalInfo[170, 314]} 
         {
             eq2ex r I have Two Hearts Divided: Moving out for cure.
