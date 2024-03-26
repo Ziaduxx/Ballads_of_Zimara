@@ -2,13 +2,15 @@
 #include "${LavishScript.HomeDirectory}/Scripts/EQ2OgreBot/InstanceController/Ogre_Instance_Include.iss"
 variable string MobName="Erollisi Marr"
 variable point3f TankSpot = "-2.75,37.65,-276.06" 
-variable point3f Joust1Spot = "14,37.65,-275.47"
-variable point3f Joust2Spot = "-19,37.65,-274.65"
+variable point3f Joust1Spot = "11.36,37.65,-275.47"
+variable point3f Joust2Spot = "-17.85,37.65,-274.65"
 
 function main()
 {
     variable bool Divided=FALSE	
     oc ${Me.Name}: Starting the ${MobName} helper script.
+
+;   oc !ci -ChangeOgreBotUIOption ${Me.Name} checkbox_settings_disablecaststack_curecurse TRUE FALSE TRUE
 
     while ${Actor[exactname,${MobName}].ID(exists)}
     {
@@ -30,7 +32,7 @@ function main()
             eq2ex r I have Two Hearts Divided: Moving out for cure.
             Ogre_CampSpot:Set_ChangeCampSpot[${Me.Name}, ${Joust1Spot}]
 	    ;oc !ci -joustout ${Me.Name}
-            wait 50i
+            wait 50
         }
 	
 	;Name: Two Hearts Divided BackDropIconID: 314 MainIconID: 170
