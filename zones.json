@@ -1,0 +1,17 @@
+{
+    "zones": [
+        {
+            "name": "Celebration Avatar Challenge: #00FF00Bertoxxulous/c [Raid]",
+            "file": "boz_avatar_raid_bertoxxulous.json"
+        },
+        {
+            "name": "Celebration Avatar Challenge: #00FF00Erollisi Marr/c [Raid]",
+            "file": "boz_avatar_raid_erollisi.json"
+        },
+        {
+            "name": "Aether Wroughtlands: The Delves [Raid]",
+            "file": "boz_aw_the_delves.json"
+        }
+    ]
+}
+

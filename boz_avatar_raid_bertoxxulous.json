@@ -1,0 +1,9 @@
+{
+    "encounters": [
+        {
+            "name": "Bertoxxulous",
+            "script": "boz_avatar_raid_bertoxxulous.iss",
+            "options": []
+        }
+    ]
+}

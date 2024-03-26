@@ -1,0 +1,9 @@
+{
+    "encounters": [
+        {
+            "name": "Erollisi Marr",
+            "script": "boz_avatar_raid_Erollisi.iss",
+            "options": []
+        }
+    ]
+}

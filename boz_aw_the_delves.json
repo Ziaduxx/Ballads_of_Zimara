@@ -1,0 +1,9 @@
+{
+    "encounters": [
+        {
+            "name": "Mezkhuur",
+            "script": "boz_aetd_mezkhuur.iss",
+            "options": []
+        }
+    ]
+}
