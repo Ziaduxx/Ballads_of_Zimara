@@ -1,4 +1,5 @@
 ; TESTING GITHUB COMMIT AND PULL FOR THOR
+; DOING ANOTHER TEST FOR THOR - at 3:08PM
 ;Run on everyone.
 #include "${LavishScript.HomeDirectory}/Scripts/EQ2OgreBot/InstanceController/Ogre_Instance_Include.iss"
 variable string MobName="Erollisi Marr"
