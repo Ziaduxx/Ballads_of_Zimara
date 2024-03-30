@@ -30,7 +30,7 @@ function main()
 
     ; ==========================================================================
     ; Enable on Settings2 - Enable Auto Cure Potions for Elemental (So can target add) and Trauma (Not sure about enabling Trauma)
-    ; Not sure 100% if cures are disabiled
+    ; Not sure 100% if cures are disabiled that this will work
     ; ==========================================================================
 
     ; ==========================================================================
