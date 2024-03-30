@@ -28,6 +28,10 @@ function main()
     ; Not sure if this overrides the disabled Cure functionality
     ; ==========================================================================
 
+    ; Just noticed on Settings2 that you can disable grp cure and Raid cures 
+    ; then use Selective Single Traget Cures
+
+
     ; ==========================================================================
     ; Enable on Settings2 - Enable Auto Cure Potions for Elemental (So can target add) and Trauma (Not sure about enabling Trauma)
     ; Not sure 100% if cures are disabiled that this will work
