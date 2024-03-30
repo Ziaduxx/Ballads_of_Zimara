@@ -4,6 +4,12 @@
             "name": "Mezkhuur",
             "script": "boz_aetd_mezkhuur.iss",
             "options": []
+        },
+        {
+            "name": "Tuer'el of the Delves",
+            "script": "boz_aetd_tuerel.iss",
+            "options": []
         }
+
     ]
 }
