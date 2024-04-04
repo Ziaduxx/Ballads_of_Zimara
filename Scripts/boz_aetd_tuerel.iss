@@ -49,7 +49,7 @@ function main()
     ; ==========================================================================
     ; Main Combat Loop
     ; ==========================================================================
-    while ${Actor[exactname,${MobName} && !IsDead].ID(exists)}
+    while ${Actor[exactname,${MobName}].ID(exists)}
     {
         wait 5
     }
